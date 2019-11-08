@@ -3,4 +3,8 @@ class AssignmentsController < ApplicationController
     @person = Person.find(params[:person_id])
     @project = Project.find(params[:project_id])
   end
+
+  def create
+   
+  end
 end
